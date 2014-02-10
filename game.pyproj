@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <SchemaVersion>2.0</SchemaVersion>
+        <ProjectGuid>{25ca7700-10d8-414d-a7b0-2f4aabf83e1a}</ProjectGuid>
+        <ProjectHome />
+        <StartupFile>GameLauncher.py</StartupFile>
+        <SearchPath />
+        <WorkingDirectory>.</WorkingDirectory>
+        <OutputPath>.</OutputPath>
+        <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+        <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+    <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+    <ItemGroup>
+        <Content Include=".hg_archival.txt" />
+        <Content Include="Changelog.txt" />
+        <Compile Include="GameClient.py" />
+        <Compile Include="GameLauncher.py" />
+        <Compile Include="GameMechanics\AI.py" />
+        <Compile Include="GameMechanics\ButtonWindowManager.py" />
+        <Compile Include="GameMechanics\ColorPalette.py" />
+        <Compile Include="GameMechanics\GameCoreManager.py" />
+        <Compile Include="GameMechanics\GameInfo.py" />
+        <Compile Include="GameMechanics\GameSound.py" />
+        <Compile Include="GameMechanics\__init__.py" />
+        <Compile Include="GameUI\ActiveTile.py" />
+        <Compile Include="GameUI\Archer.py" />
+        <Compile Include="GameUI\Castle.py" />
+        <Compile Include="GameUI\CastleProvider.py" />
+        <Compile Include="GameUI\Door.py" />
+        <Compile Include="GameUI\King.py" />
+        <Compile Include="GameUI\Knight.py" />
+        <Compile Include="GameUI\Missile.py" />
+        <Compile Include="GameUI\MousePointer.py" />
+        <Compile Include="GameUI\Placeholder.py" />
+        <Compile Include="GameUI\Thief.py" />
+        <Compile Include="GameUI\Tile.py" />
+        <Compile Include="GameUI\Town.py" />
+        <Compile Include="GameUI\Unit.py" />
+        <Compile Include="GameUI\UnitGridRenderer.py" />
+        <Compile Include="GameUI\Wizard.py" />
+        <Compile Include="GameUI\WorldRenderer.py" />
+        <Compile Include="GameUI\__init__.py" />
+        <Content Include="images\enemy_highlight.png" />
+        <Content Include="images\enter_town.png" />
+        <Content Include="images\fight_highlight.png" />
+        <Content Include="images\friendly_highlight.png" />
+        <Content Include="images\leave_town.png" />
+        <Content Include="images\neutral_highlight.png" />
+        <Content Include="images\placeholder.png" />
+        <Content Include="images\recruit.png" />
+        <Content Include="images\scroll.png" />
+        <Content Include="images\skull_and_bones.png" />
+        <Content Include="images\walk_highlight.png" />
+        <Content Include="images\bg.jpg" />
+        <Content Include="images\brick_wall.jpg" />
+        <Content Include="images\castle.gif" />
+        <Content Include="images\town.gif" />
+        <Compile Include="UI\Button.py" />
+        <Compile Include="UI\Checkbox.py" />
+        <Compile Include="UI\Group.py" />
+        <Compile Include="UI\__init__.py" />
+        <Content Include="images\amg1\amg1_bk1.gif" />
+        <Content Include="images\amg1\amg1_bk2.gif" />
+        <Content Include="images\amg1\amg1_fr1.gif" />
+        <Content Include="images\amg1\amg1_fr2.gif" />
+        <Content Include="images\amg1\amg1_lf1.gif" />
+        <Content Include="images\amg1\amg1_lf2.gif" />
+        <Content Include="images\amg1\amg1_rt1.gif" />
+        <Content Include="images\amg1\amg1_rt2.gif" />
+        <Content Include="images\arrow\down.png" />
+        <Content Include="images\arrow\left.png" />
+        <Content Include="images\arrow\right.png" />
+        <Content Include="images\arrow\up.png" />
+        <Content Include="images\avt1\avt1_bk1.gif" />
+        <Content Include="images\avt1\avt1_bk2.gif" />
+        <Content Include="images\avt1\avt1_fr1.gif" />
+        <Content Include="images\avt1\avt1_fr2.gif" />
+        <Content Include="images\avt1\avt1_lf1.gif" />
+        <Content Include="images\avt1\avt1_lf2.gif" />
+        <Content Include="images\avt1\avt1_rt1.gif" />
+        <Content Include="images\avt1\avt1_rt2.gif" />
+        <Content Include="images\blast\down.png" />
+        <Content Include="images\blast\left.png" />
+        <Content Include="images\blast\right.png" />
+        <Content Include="images\blast\up.png" />
+        <Content Include="images\kin1\kin1_bk1.gif" />
+        <Content Include="images\kin1\kin1_bk2.gif" />
+        <Content Include="images\kin1\kin1_fr1.gif" />
+        <Content Include="images\kin1\kin1_fr2.gif" />
+        <Content Include="images\kin1\kin1_lf1.gif" />
+        <Content Include="images\kin1\kin1_lf2.gif" />
+        <Content Include="images\kin1\kin1_rt1.gif" />
+        <Content Include="images\kin1\kin1_rt2.gif" />
+        <Content Include="images\knt1\knt1_bk1.gif" />
+        <Content Include="images\knt1\knt1_bk2.gif" />
+        <Content Include="images\knt1\knt1_fr1.gif" />
+        <Content Include="images\knt1\knt1_fr2.gif" />
+        <Content Include="images\knt1\knt1_lf1.gif" />
+        <Content Include="images\knt1\knt1_lf2.gif" />
+        <Content Include="images\knt1\knt1_rt1.gif" />
+        <Content Include="images\knt1\knt1_rt2.gif" />
+        <Content Include="images\thf2\thf2_bk1.gif" />
+        <Content Include="images\thf2\thf2_bk2.gif" />
+        <Content Include="images\thf2\thf2_fr1.gif" />
+        <Content Include="images\thf2\thf2_fr2.gif" />
+        <Content Include="images\thf2\thf2_lf1.gif" />
+        <Content Include="images\thf2\thf2_lf2.gif" />
+        <Content Include="images\thf2\thf2_rt1.gif" />
+        <Content Include="images\thf2\thf2_rt2.gif" />
+        <Content Include="images\tiles\0.png" />
+        <Content Include="images\tiles\1.png" />
+        <Content Include="images\tiles\2.png" />
+        <Content Include="images\tiles\3.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Folder Include="GameMechanics" />
+        <Folder Include="GameUI" />
+        <Folder Include="images" />
+        <Folder Include="images\amg1" />
+        <Folder Include="images\arrow" />
+        <Folder Include="images\avt1" />
+        <Folder Include="images\blast" />
+        <Folder Include="images\kin1" />
+        <Folder Include="images\knt1" />
+        <Folder Include="images\thf2" />
+        <Folder Include="images\tiles" />
+        <Folder Include="UI" />
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+</Project>

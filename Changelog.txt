@@ -1,0 +1,46 @@
+#1. Starting AI wizard and archer units do nothing, they should patrol with the first warrior
+
+#2. I can't seem to click on the castle it should be clickable to always add or remove the units inside.// should use the right click
+
+#3. When attacking a town it should make a noise and have a unique sound to indicate the town is being attacked
+
+#4. When clicking on a town it should display the loyalty counter.
+
+#5. The AI should create scouts to attempt to take over neutral towns when they are available as well. 
+
+#6. If an AI unit is attacked it should respond by returning the attack.
+
+#7. When a unit is clicked on on the left from the interface the camera should move to them. 
+
+#8. When a turn moves to another player it should focus on their castle.
+
+#9. AI needs more rules to make it more competitive
+
+#10. Unit powers need to be adjusted to balance the game better.
+
+#can we make the scrolling faster
+
+#we should add a button to return to the main menu
+
+#Lets make the archers and wizards do a little more damage against the king, not a lot but enough so it basically isn't nothing.
+
+#Lets make all units movement distance a little bit less, except for archers and scouts, they can stay the same.
+
+#I think the king is too strong, we should give him less hit points.
+
+#The AI doesn't seem to make scouts and try to take over new towns, it should do this as well.
+
+#Could we add medieval style music playing?
+
+#It also seems to display my movement grids during the AIs turn
+
+#I'm not sure if it's set up but hurt units should regain a little lost health each turn.
+
+- units should move around rocks/objects not through them
+- can we add a checkbox to toggle the AI animations on/off so if a user doesn't want to they don't have to watch the animations
+
+The animations for AI archers and wizards seem glitchy, do they look fine on your machine or is it a local issue? 
+
+Suggestions for the AI: Is the a way for them to know if they are losing a battle and retreat? For instance I had a warrior, archer and wizard fighting my king but
+there's no way they can win but they kept fighting.
+
